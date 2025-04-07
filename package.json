@@ -1,10 +1,20 @@
 {
-  "name": "wimbledon-tourism-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "js/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "private": true
+  "locations": [
+    {
+      "id": "wimbledon1",
+      "name": "All England Lawn Tennis Club",
+      "type": "venue",
+      "coordinates": { "lat": 51.434, "lng": -0.214 },
+      "description": "The main venue for Wimbledon Championships.",
+      "images": ["tennis-court.jpg"]
+    },
+    {
+      "id": "hotel1",
+      "name": "Wimbledon Hotel",
+      "type": "hotel",
+      "coordinates": { "lat": 51.422, "lng": -0.208 },
+      "priceRange": "$$$",
+      "rating": 4.5
+    }
+  ]
 }

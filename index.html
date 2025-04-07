@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wimbledon Tourism Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
+<header class="js_header">
+    <h1>Wimbledon 2025 Visitor Guide</h1>
+    <nav class="js_nav">
+        <!-- Will be filled via JS or HTML -->
+    </nav>
+</header>
+<main>
+    <section class="js_mapContainer">
+        <div id="js_map"></div>
+    </section>
+    <section class="js_filters">
+        <!-- Filter controls go here -->
+    </section>
+</main>
+<footer class="js_footer">
+    <p>© 2025 Wimbledon Tourism</p>
+</footer>
+<script src="js/index.js"></script>
+<script src=https://maps.googleapis.com/maps/api/js?key=AIzaSyDO-ezSXCz5DV3B-amDVzYABvpwiyX4OBY&loading=async&callback=loadMap&libraries=marker></script>
 </body>
 </html>

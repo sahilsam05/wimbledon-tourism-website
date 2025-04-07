@@ -1,5 +1,12 @@
-$ms_primaryColor: #ffff;
+// Colors (Wimbledon theme)
+$ms_primaryColor: #0a5e2a; // Wimbledon green
+$ms_secondaryColor: #f5f5f5;
+$ms_textColor: #333;
 
-body {
-  background-color: $ms_primaryColor;
-}
+// Spacing
+$ms_baseSpacing: 1rem;
+$ms_largeSpacing: 2rem;
+
+// Breakpoints
+$ms_mobileBreakpoint: 500px;
+$ms_tabletBreakpoint: 1000px;
